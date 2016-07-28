@@ -1,4 +1,4 @@
-name: ipython
+name: ipython-example
 version: 5.0.0
 summary: Enhanced interactive Python shell
 description: |
@@ -13,7 +13,7 @@ description: |
 confinement: strict
 
 apps:
-    ipython:
+    ipython-example:
         command: ipython.sh
 
 parts:
